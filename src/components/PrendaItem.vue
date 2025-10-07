@@ -18,7 +18,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div>
+    <div class="border-2 border-gray-300 rounded-lg p-3">
         <div class="text-xl font-semibold ">{{ props.prenda.nombre }}</div>
         <div class="text-sm text-gray-500">Talle: {{ props.prenda.talle }}</div>
         <div class="text-sm text-gray-500">Color: {{ props.prenda.color }}</div>

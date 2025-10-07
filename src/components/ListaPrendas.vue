@@ -20,11 +20,10 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="flex flex-row mt-4 gap-3">
+    <div class="flex flex-col justify-start sm:flex-row  mt-4 gap-3">
         <div v-for="prenda in props.prendas"
-            class="flex flex-row justify-between items-center border-2 border-gray-300 rounded-lg p-3">
+            class="flex flex-row justify-between items-center ">
             <PrendaItem :prenda="prenda" />
         </div>
     </div>
-
 </template>
